@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My url-shortener</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="card">
+    <div class="card-body">
+        <form method="post" action="">
+            <div class="form-group">
+                <label>Enter url to short</label>
+                <input id="url" name="url" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Enter number of months that url would work (1-12)</label>
+                <input id="period" name="period" class="form-control" type="number" placeholder="3">
+            </div>
+            <button type="submit" class="btn btn-primary">Get a short url</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
